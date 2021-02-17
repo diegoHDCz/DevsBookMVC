@@ -6,10 +6,10 @@ use \src\handlers\LoginHandler;
 
 class HomeController extends Controller {
 
-    private $loggeduser;
+    private $loggedUser;
     
     public function __construct() {
-        $this->loggeduser = LoginHandler::checkLogin();
+        $this->loggedser = LoginHandler::checkLogin();
         if(LoginHandler::checkLogin()===false){
             $this->redirect('/login');
         }
