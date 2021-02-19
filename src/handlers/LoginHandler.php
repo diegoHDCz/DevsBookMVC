@@ -2,7 +2,6 @@
 
 namespace src\handlers;
 
-use DateTime;
 use src\models\User;
 
 class LoginHandler
