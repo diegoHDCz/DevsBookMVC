@@ -19,6 +19,7 @@ class LoginHandler
                 $loggedUser->id = $data['id'];
                 $loggedUser->email = $data['email'];
                 $loggedUser->name = $data['name'];
+                
                
                 return $loggedUser;
             }
